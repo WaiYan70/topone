@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top One - Product Page - Cash Drawer</title>
+    <meta name="description" content="Top One တံဆိတ် ၏ Cash Drawer အသေးစိတ်အချက်အလက်များ၊စျေးနုန်းများနှင့်ဓါတ်ပုံများကိုဝင်ရောက်ကြည့်ရှူနိုင်ပါသည်။">
+    <meta name="keywords" content="topone, TopOne, cash drawer, cashdrawer, CashDrawer, Cash Drawer, thermal slip printer, thermalslipprinter, ThermalSlipPrinter, Thermal Slip Printer, wireless barcode scanner,  wirelessbarcodescanner, Wireless Barcode Scanner, WirelessBarcodeScanner">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; object-src 'none'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; media-src 'self'; frame-src 'self'; font-src 'self' https://fonts.gstatic.com;">
+    <link rel="shortcut icon" href="../assets/Logo/TopOne-Logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/fontawesome-6.2.0/css/all.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+    <script src="../script/product.js" defer></script>
+  </head>
+  <body>
+    <!-- Primary Navigation Bar -->
+    <header class="primary-navbar-header">
+      <nav class="navbar container">
+          <!-- NavaBar Data -->
+          <div class="navbar-data">
+              <a href="#" class="navbar-logo">
+                <img src="../assets/Logo/Top-One-Logo-50.webp" alt="TopOne Logo">
+              </a>
+              <div class="navbar-toggle" id="navbar-toggle">
+                  <i class="fa-solid fa-bars navbar-menu-btn-open" id="navbar-toggle"></i>
+                  <i class="fa-solid fa-xmark navbar-menu-btn-close" id="navbar-toggle"></i>
+              </div>
+          </div>
+          <!--The End of NavaBar Data -->
+          <!-- Menu-Overlay -->
+          <div class="menu-overlay" id="menu-overlay"></div>
+          <!-- The End of Menu-Overlay -->
+          <!-- Nav Menu -->
+          <div class="navbar-menu" id="navbar-menu">
+            <ul class="navbar-list">
+              <li>
+                <a href="../" class="navbar-link" aria-label="Go to Home Page" title="Home Page">Home</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="navbar-link currentPage" id="navbar-link-dropdown" aria-label="Go to Product Page" title="Product Page">
+                  Product<i class="fa-solid fa-angle-down dropdown-arrow"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="slipprinter.html" class="dropdown-menu-item" aria-label="Go to Product (Slip Printer) Page" title="Split Printer Page">
+                      <i class="fa-solid fa-print"></i>Slip<span>Printer</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="scanner" class="dropdown-menu-item" aria-label="Go to Product (Scanner) Page" title="Scanner Page">
+                      <i class="fa-solid fa-barcode"></i>Wireless<span>Scanner</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="cashdrawer" class="dropdown-menu-item currentPage" aria-label="Go to Product (Cash Drawer) Page" title="Cash Drawaer Page">
+                      <i class="fa-solid fa-cash-register"></i>Cash<span>Drawer</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="../download" class="navbar-link" aria-label="Go to Download Page" title="Download Page">Download</a>
+              </li>
+              <li>
+                <a href="../contact" class="navbar-link" aria-label="Go to Contact Page" title="Contact Page">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- The End of Nav Menu -->
+      </nav>
+    </header>
+    <!-- The End of Primery Navigation Bar -->
+    <main class="center">
+      <!-- Modal Box -->
+      <div class="modal-box-container">
+        <!-- Modal -->
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="modal-title">Some Text</div>
+            <button data-close-button class="modal-close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-text">
+              ကုန်ပစ္စည်းများကိုဝယ်ယူလိုပါက<a href="../contact" class="modal-contact-link">Contact</a>စာမျက်နှာတွင်ဖုန်းနံပါတ်နှင့်တကွဝယ်ယူနိုင်သည့်နေရပ်လိပ်စာသို့ဆက်သွယ်ဝယ်ယူနိုင်ပါသည်။
+            </div>
+            <button data-close-button class="modal-body-button">
+              Ok
+            </button>
+          </div>
+        </div>
+        <!-- The End of Modal -->
+        <div id="modal-overlay"></div>
+      </div>
+      <!-- The End of Modal Box -->
+      <!-- Tab Session -->
+        <section class="tab-container">
+            <div class="tab-box">
+                <button class="tab"><a href="slipprinter" aria-label="Go to Product (Slip Printer) Page" title="Split Printer Page"><i class="fa-solid fa-print tab-icon"></i>Slip Printer</a></button>
+                <button class="tab"><a href="scanner" aria-label="Go to Product (Scanner) Page" title="Scanner Page"><i class="fa-solid fa-barcode tab-icon"></i>Wireless Scanner</a></button>
+                <button class="tab active"><a href="cashdrawer" aria-label="Go to Product (Slip Printer) Page" title="Cash Drawer Page"><i class="fa-solid fa-cash-register tab-icon"></i>Cash Drawer</a></button>
+            </div>
+        <!-- The Content Box -->
+        <div class="content-box">
+          <!-- Cash Drawer -->
+          <div class="content">
+            <!-- Product card session -->
+            <div class="product-card-container">
+              <div class="product-card-container-box">
+                <h1 class="product-card-container-box-heading">
+                  <span>featured</span> products
+                </h1>
+                <!-- Product Card - 07 (Cash Drawer) -->
+                <div class="product-card">
+                  <!-- Product Card Image -->
+                  <div class="product-card-image">
+                    <div class="product-card-image-small">
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400DF-1.webp"
+                        class="product-card-image-small-1"
+                        alt="TopOne CashDraw BQ400DF"
+                        title="TopOne CashDraw BQ400DF"
+                      />
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400DF-2.webp"
+                        class="product-card-image-small-1"
+                        alt="TopOne CashDraw BQ400DF"
+                        title="TopOne CashDraw BQ400DF"
+                      />
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400DF-3.webp"
+                        class="product-card-image-small-1"
+                        alt="TopOne CashDraw BQ400DF"
+                        title="TopOne CashDraw BQ400DF"
+                      />
+                    </div>
+                    <div class="product-card-image-big">
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400DF-1.webp"
+                        class="product-card-image-big-1"
+                        alt="TopOne CashDraw BQ400DF"
+                        title="TopOne CashDraw BQ400DF"
+                      />
+                    </div>
+                    <!-- The End of Product Card Image  -->
+                  </div>
+                  <!-- The End of Product Card -->
+                  <div class="product-card-content">
+                    <h2>Cash Drawer</h2>
+                    <div class="product-card-content-stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <table>
+                      <tr>
+                        <td class="product-card-content-text1">Model</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">BQ400DF</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Dimensions</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">405W x 410L x 110H(mm)</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Layout</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">6bills or 5bills & 3coils or 4bills & 6coils</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Interface</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">RJ 11</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Net Weight</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">5.2kg</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Gross Weight</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">5.8kg</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Voltage</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">12V</td>
+                      </tr>
+                    </table>
+                    <div class="product-card-price">
+                      <button data-modal-target="#modal">
+                        $37
+                      </button>
+                      <!-- <span>$120.99</span> -->
+                    </div>
+                  </div>
+                  <!-- The Endo of Product Card Content -->
+                </div>
+                <!-- The End of Product Card - 07 (Cash Drawer) -->
+                <!-- Product Card - 06 (Cash Drawer) -->
+                <div class="product-card">
+                  <!-- Product Card Image -->
+                  <div class="product-card-image">
+                    <div class="product-card-image-small">
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400AF-1.webp"
+                        class="product-card-image-small-2"
+                        alt="TopOne CashDraw BQ400AF"
+                        title="TopOne CashDraw BQ400AF"
+                      />
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400AF-2.webp"
+                        class="product-card-image-small-2"
+                        alt="TopOne CashDraw BQ400AF"
+                        title="TopOne CashDraw BQ400AF"
+                      />
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400AF-3.webp"
+                        class="product-card-image-small-2"
+                        alt="TopOne CashDraw BQ400AF"
+                        title="TopOne CashDraw BQ400AF"
+                      />
+                    </div>
+                    <div class="product-card-image-big">
+                      <img
+                        src="../assets/CashDrawer/CashDrawer-BQ400AF-1.webp"
+                        class="product-card-image-big-2"
+                        alt="TopOne CashDraw BQ400AF"
+                        title="TopOne CashDraw BQ400AF"
+                      />
+                    </div>
+                    <!-- The End of Product Card Image  -->
+                  </div>
+                  <!-- The Product Card Content -->
+                  <div class="product-card-content">
+                    <h2>Cash Drawer</h2>
+                    <div class="product-card-content-stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <table>
+                      <tr>
+                        <td class="product-card-content-text1">Model</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">BQ400AF</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Dimensions</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">405W x 410L x 110H(mm)</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Layout</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">7bills or 6bills & 3coils or 5bills & 6coils</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Interface</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">RJ 11</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Net Weight</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">5.2kg</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Gross Weight</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">5.8kg</td>
+                      </tr>
+                      <tr>
+                        <td class="product-card-content-text1">Voltage</td>
+                        <td class="product-card-content-text2">:</td>
+                        <td class="product-card-content-text3">12V</td>
+                      </tr>
+                    </table>
+                    <div class="product-card-price">
+                      <button data-modal-target="#modal">
+                        $39
+                      </button>
+                    </div>
+                  </div>
+                  <!-- The End of Product Card Content -->
+                </div>
+                <!-- The End of Product Card - 06 (Cash Drawer)  -->
+              </div>          
+            </div>
+            <!-- The End of Product Card Session -->
+          </div>
+          <!-- The End of Cash Drawer -->
+        </div>
+        <!-- The End of Content Box -->
+      </section>
+      <!-- The End of Tab Session -->
+
+      <br />
+    </main>
+    <!-- Footer -->
+    <footer>
+      <!-- The Footer Container -->
+      <div class="footer-container">
+        <!-- The left side of the Footer -->
+        <div class="footer-left footer-box">
+          <h2>Social Media</h2>
+          <div class="footer-content">
+            <div class="footer-social">
+              <div class="footer-social-link">
+                <a href="https://www.facebook.com/quickmart2022?mibextid=ZbWKwL" title="Go to Facebook Page"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/quickmart2022?mibextid=ZbWKwL" title="Go to Facebook Page"><span>Facebook-TopOne</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The End of left side of the Footer -->
+
+        <!-- The Center of the Footer -->
+        <div class="footer-center footer-box">
+          <h2>Address</h2>
+          <table class="footer-content">
+            <tr class="footer-place">
+              <td><i class="fa-solid fa-location-dot"></i></td>
+              <td>
+                <span class="footer-text">
+                  No. 138, Seik Kan Tha Street, Kyauk Ta Da TownShip, Yangon.
+                </span>
+              </td>
+            </tr>
+            <tr class="footer-place">
+              <td><i class="fa-solid fa-location-dot"></i></td>
+              <td>
+                <span lang="my" class="footer-text-mm">
+                  အမှတ်(၁၃၈)၊ မြေညီထပ်၊ ဆိပ်ကမ်းသာလမ်းအောက်၊ ကျောက်တံတားမြို့နယ်၊ ရန်ကုန်မြို့။
+                </span>
+              </td>
+            </tr>
+            <tr class="footer-phone">
+              <td rowspan="3"><i class="fa-solid fa-phone"></i></td>
+              <td><span class="footer-text">+959-882 883 901</span></td>
+            </tr>
+            <tr class="footer-phone">
+              <td><span class="footer-text">+959-882 883 902</span></td>
+            </tr>
+            <tr class="footer-phone">
+              <td><span class="footer-text">+959-882 883 903</span></td>
+            </tr>
+            <tr class="footer-email">
+              <td><i class="fa-solid fa-envelope"></i></td>
+              <td>
+                <span class="footer-text">quickmart28@gmail.com</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- The End of Center of the Footer -->
+        <!-- The Right side of the Footer -->
+        <div class="footer-right footer-box">
+          <h2>Quick Link</h2>
+          <div class="footer-content">
+            <div class="footer-link">
+              <a href="../" aria-label="Go to TopOne's Home Page" title="Go to TopOne's Home Page">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+              </a>
+            </div>
+            <div class="footer-link">
+              <a href="slipprinter" aria-label="Go to TopOne's Product (Slip Printer) Page" title="Go to TopOne's Product (Slip Printer) Page">
+                <i class="fa-solid fa-print"></i>
+                <span>Slip Printer</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-content-1">
+            <div class="footer-link">
+              <a href="scanner" aria-label="Go to TopOne's Product (Scanner) Page" title="Go to TopOne's Product (Scanner) Page">
+                <i class="fa-solid fa-barcode"></i>
+                <span>Scanner</span>
+              </a>
+            </div>
+            <div class="footer-link">
+              <a href="cashdrawer" aria-label="Go to TopOne's Product (Cash Drawer) Page" title="Go to TopOne's Product (Cash Drawer) Page">
+                <i class="fa-solid fa-cash-register"></i>
+                <span>Cash Drawer</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-content-1">
+            <div class="footer-link">
+              <a href="../download" aria-label="Go to TopOne's Download Page" title="Go to TopOne's Download Page">
+                <i class="fa-solid fa-download"></i>
+                <span>Download</span>
+              </a>
+            </div>
+            <div class="footer-link">
+              <a href="../contact" aria-label="Go to TopOne's Contact Page" title="Go to TopOne's Contact Page">
+                <i class="fa-solid fa-phone"></i>
+                <span>Contact</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- The End Right side of the Footer -->
+      </div>
+      <!-- The End of Footer Container -->
+      <div class="copy-right"><center><i class="fa-regular fa-copyright"></i><span> 2023 Top One</span></center></div>
+    </footer>
+    <!-- The End of Footer -->
+  </body>
+</html>

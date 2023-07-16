@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://topone.com.mm/sitemap.xml
+Sitemap: https://www.topone.com.mm/sitemap.xml
