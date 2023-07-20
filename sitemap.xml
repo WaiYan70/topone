@@ -3,40 +3,66 @@
 
   <url>
     <loc>https://topone.com.mm/</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2023-07-20</lastmod>
+    <!-- <changefreq>daily</changefreq> -->
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://topone.com.mm/index.html</loc>
+    <lastmod>2023-07-20</lastmod>
+    <!-- <changefreq>daily</changefreq> -->
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://topone.com.mm/product/slipprinter</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-07-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topone.com.mm/product/slipprinter.html</loc>
+    <lastmod>2023-07-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://topone.com.mm/product/scanner</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-07-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topone.com.mm/product/scanner.html</loc>
+    <lastmod>2023-07-20</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://topone.com.mm/product/cashdrawer</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-07-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topone.com.mm/product/cashdrawer.html</loc>
+    <lastmod>2023-07-20</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topone.com.mm/download</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-07-20</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://topone.com.mm/download.html</loc>
+    <lastmod>2023-07-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://topone.com.mm/contact</loc>
-    <lastmod>2023-07-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-07-20</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://topone.com.mm/contact.html</loc>
+    <lastmod>2023-07-20</lastmod>
     <priority>0.7</priority>
   </url>
 

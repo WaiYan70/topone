@@ -630,7 +630,7 @@ a{
 /* The End of Swiper Pagination For Advertisment and Brand Product Slider */
 /* The End of Brand Products Slider/ Slide show  */
 /* Best Seller Section */
-.best-seller-section h1{
+.best-seller-section h2{
   font-size: 3rem;
   font-weight: var(--font-semi-bold);
   text-align: center;
@@ -669,7 +669,7 @@ a{
   width: 200px;
   float: right;
 }
-.best-seller-box > .best-seller-header > h2 {
+.best-seller-box > .best-seller-header > h3 {
   line-height: 2;
   font-size: 1.8rem;
   font-weight: var(--font-subheader);
@@ -729,8 +729,9 @@ footer{
   flex-basis: 50%;
   padding: 1.25rem 2rem;
 }
-.footer-container .footer-box h2{
-  font-size: 2.5rem;
+.footer-container .footer-box h4{
+  color: var(--black-color-lighter);
+  font-size: 2.2rem;
   font-weight: 600;
   text-transform: uppercase;
 }
