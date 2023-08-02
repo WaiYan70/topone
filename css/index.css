@@ -409,7 +409,7 @@ a{
   visibility: visible;
 }
 .main-image-wrapper .main-image-slide .image-data .button:hover{
-  color: var(--red);
+  color: var(--red-color);
   background-color: var(--black-color-lighter);
 }
 /* Image Hero Section Swiper Button (Advertisment) */
